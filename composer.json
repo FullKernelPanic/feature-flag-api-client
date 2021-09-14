@@ -1,0 +1,30 @@
+{
+  "name": "fullkernelpanic/feature-flag-api-client",
+  "description": "Http api client for feature flag project",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "FeatureFlagApiClient\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "FullKernelPanic",
+      "email": "zackraven@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "fullkernelpanic/http-api-client": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/FullKernelPanic/http-api-client.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/FullKernelPanic/api-client-base.git"
+    }
+  ]
+}
